@@ -12,5 +12,7 @@ namespace PDPBCA_Test.Model
         public int DownPayment { get; set; } = 0;
         public int LamaKredit { get; set; } = 0;
         public int Angsuran { get; set; } = 0;
+        public Konsumen Konsumen { get; set; }
+        public Kendaraan Kendaraan { get; set; }
     }
 }
